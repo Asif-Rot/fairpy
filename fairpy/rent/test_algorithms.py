@@ -152,7 +152,6 @@ class TestMain(unittest.TestCase):
              [('10', 550.0), ('1', 550.0), ('2', 550.0), ('3', 550.0), ('4', 550.0), ('5', 550.0), ('6', 550.0),
               ('7', 550.0), ('8', 550.0), ('9', 550.0)]))
 
-
         # Overload test
         agents = {"Alice": {str(i): i for i in range(1000)}, "Bob": {str(i): i for i in range(1000)}}
         ex9 = AgentList(agents)
